@@ -46,9 +46,9 @@ void setup() {
   bg2 = loadImage("img/bg2.png");
 }
 void draw() {
-  bg2x = bg1x - 636;
-  bg3x = bg2x - 636;
-  bg1x = (bg1x += 5) % 1280;
+  bg2x = bg1x - 600;
+  bg3x = bg2x - 600;
+  bg1x = (bg1x += 5) % 1150;
   image(bg1, bg1x, 0);
   image(bg2, bg2x, 0);
   image(bg1, bg3x, 0);
