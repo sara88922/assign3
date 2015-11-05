@@ -54,7 +54,7 @@ void draw() {
   image(bg1, bg3x, 0);
   
   fill(255, 0, 0);
-  rect(10, 15, 200, 15);
+  rect(10, 10, 200, 15);
 
   image(fighter, FTx, FTy);
   x = (x += 5) % 920;
